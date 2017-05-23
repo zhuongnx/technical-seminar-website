@@ -1,0 +1,16 @@
+build:
+  image: framgia/laravel-workspace
+  commands:
+    - framgia-ci run
+deploy:
+  rocketeer:
+    image: fdplugins/rocketeer:php5
+    when:
+      branch: develop
+    commands:
+      - rocketeer deploy --on=staging --no-interaction
+cache:
+  mount:
+    - vendor
+    - node_modules
+    - .git

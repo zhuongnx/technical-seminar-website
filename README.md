@@ -18,7 +18,8 @@ docker exec -it seminar_workspace /bin/bash
 ```
     - Run `composer install` (for `vendor` directory).
     - Run `php artisan migrate` (for preparing database).
-    - Run `gulp` (for compiling asset files).
+    - Run `npm install` (for `node_modules` directory).
+    - Run `npm run dev` (for compiling asset files).
 - Check project working at:
 
 ```
