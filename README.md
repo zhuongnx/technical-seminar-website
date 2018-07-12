@@ -1,4 +1,4 @@
-# Technical Seminar Website
+# Technical Seminar Website For Training
 ## Environment Setup
 
 - Install and setup [Docker](https://www.docker.com/) following [this instruction](https://gist.github.com/wataridori/5eed8c76cd6120b609d30d21f0785d45) for your local machine.
